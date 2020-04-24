@@ -20,7 +20,7 @@ public class GetAllRecordTest {
    .body("first_name", Matchers.hasItem("Aliko")).and().body("last_name", Matchers.hasItem("Dangote")).and()
    .body("first_name", Matchers.hasItem("Bill")).and().body("last_name", Matchers.hasItem("Gates")).and()
    .body("first_name", Matchers.hasItem("Folrunsho")).and().body("last_name", Matchers.hasItem("Alakija"));
-   System.out.println("PASS");
+   
 		
 		
 	}
@@ -29,7 +29,7 @@ public class GetAllRecordTest {
 	{
    given().header("Authorization","Bearer eyJhbGciOiJIUzUxMiertJ9.eyJzdWIiOiJydXBlZWsiLCJleHAiOjE1ODc3MzgxNDAsImlhdCI6MTU4NzcyMDE0MH0.KdCLd7wsDA8CxX3OROxRXsVVk9gnkzYREsk89VZl9l_OvhQKqDHFgcdajuLb2i9TBi_vI6A4TmvJhkOO87zfRg").get("http://13.126.80.194:8080/api/v1/users")
    .then().assertThat().statusCode(401).and().contentType("");
-   System.out.println("Pass");
+  
 		
 		
 	}
