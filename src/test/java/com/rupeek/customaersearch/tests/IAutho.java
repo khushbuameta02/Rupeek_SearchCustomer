@@ -1,0 +1,6 @@
+package com.rupeek.customaersearch.tests;
+
+public interface IAutho {
+
+	String TOKEN="Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJydXBlZWsiLCJleHAiOjE1ODc3MzgxNDAsImlhdCI6MTU4NzcyMDE0MH0.KdCLd7wsDA8CxX3OROxRXsVVk9gnkzYREsk89VZl9l_OvhQKqDHFgcdajuLb2i9TBi_vI6A4TmvJhkOO87zfRg";
+}
