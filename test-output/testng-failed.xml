@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.rupeek.customaersearch.tests.AutheticationTest">
+      <class name="com.rupeek.customaersearch.tests.GetAllRecordTest">
         <methods>
-          <include name="gettokenWithInvalid"/>
+          <include name="getAutherizationWithInValid"/>
         </methods>
-      </class> <!-- com.rupeek.customaersearch.tests.AutheticationTest -->
+      </class> <!-- com.rupeek.customaersearch.tests.GetAllRecordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
